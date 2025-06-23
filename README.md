@@ -1,6 +1,6 @@
 # Switching Hidden Markov Model for Vehicle Movement Tracking
 
-This repository contains the implementation of a **vehicle movement tracking system** using **Switching Hidden Markov Models (HMM)**. The project integrates **OpenStreetMap**, **OSRM**, and advanced AI/ML techniques to distinguish vehicular movement on **highways**, **service roads**, and **flyovers** from coarse GNSS data.The detailed content of the project is avaiable in this Drive (https://drive.google.com/file/d/12J4m65JyD-cekRiMmBzjrCBWQKoxNWYq/view?usp=drive_link).
+This repository contains the implementation of a **vehicle movement tracking system** using **Switching Hidden Markov Models (HMM)**. The project integrates **OpenStreetMap**, **OSRM**, and advanced AI/ML techniques to distinguish vehicular movement on **highways**, **service roads**, and **flyovers** from coarse GNSS data.The detailed content of the project is avaiable in this Drive (https://drive.google.com/drive/folders/1mhbTaN3gyNN9Nyedb8KDmlOe-hi7dB1c).
 
 ## Problem Statement
 The challenge was to develop a **map-matching algorithm** using **AI-ML techniques** to:
