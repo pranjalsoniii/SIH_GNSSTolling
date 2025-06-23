@@ -1,6 +1,6 @@
 # Switching Hidden Markov Model for Vehicle Movement Tracking
 
-This repository contains the implementation of a **vehicle movement tracking system** using **Switching Hidden Markov Models (HMM)**. The project integrates **OpenStreetMap**, **OSRM**, and advanced AI/ML techniques to distinguish vehicular movement on **highways**, **service roads**, and **flyovers** from coarse GNSS data. 
+This repository contains the implementation of a **vehicle movement tracking system** using **Switching Hidden Markov Models (HMM)**. The project integrates **OpenStreetMap**, **OSRM**, and advanced AI/ML techniques to distinguish vehicular movement on **highways**, **service roads**, and **flyovers** from coarse GNSS data.The detailed content of the project is avaiable in this Drive (https://drive.google.com/file/d/12J4m65JyD-cekRiMmBzjrCBWQKoxNWYq/view?usp=drive_link).
 
 ## Problem Statement
 The challenge was to develop a **map-matching algorithm** using **AI-ML techniques** to:
@@ -36,54 +36,7 @@ The challenge was to develop a **map-matching algorithm** using **AI-ML techniqu
 
 ---
 
-## Project Structure
-.
-├── Evaluation Datasets/                 # Contains datasets for evaluation
-│   ├── EvalDataset5.pos                 # GNSS position file with coarse data for vehicle tracking
-│   ├── EvalDataset6.kml                 # KML dataset for map visualization in OpenStreetMap
-│   └── ...                              # Additional datasets for testing and evaluation
-│
-├── static/                              # Static files used by the web application
-│   ├── maps/                            # Contains HTML maps for trajectory visualization
-│   │   ├── osm_route_map.html           # HTML map showing raw OpenStreetMap routes
-│   │   ├── classified_road_map.html     # Map with road classifications (highway, service road)
-│   │   ├── predicted_route_map.html     # Map displaying the predicted vehicle route
-│   │   └── snapped_route_map.html       # Map showing snapped coordinates to nearest roads
-│   └── uploads/                         # Directory for storing user-uploaded files (e.g., .pos, .kml)
-│
-├── templates/                           # HTML templates for the Flask web application
-│   ├── index.html                       # Frontend template for file uploads and displaying results
-│
-├── app.py                               # Flask application for the dynamic web interface
-│                                        # Handles user uploads, processing, and map visualization
-│
-├── 2_Smart_India_Hackathon_maincode.ipynb # Jupyter Notebook with main implementation and analysis
-│                                        # Includes model training and evaluation steps
-│
-├── 3_smart_india_hackathon.py           # Python script containing core functionality for:
-│                                        # - Dataset preprocessing
-│                                        # - Switching Hidden Markov Model implementation
-│                                        # - Generating trajectory predictions and journey statistics
-│
-├── OSRMDistance_Finder.ipynb            # Jupyter Notebook for calculating distances using OSRM API
-│                                        # Includes tools to analyze routes and refine snapping accuracy
-│
-├── Financials.pdf                       # Financial report covering:
-│                                        # - SWOT analysis
-│                                        # - Feasibility and cost-benefit analysis
-│                                        # - Potential impact and benefits of the solution
-│
-├── README.md                            # Project documentation and user guide
-│
-└── static/uploads/                      # Directory for storing user-uploaded files during runtime
-
-
----
-
 ## File and Folder Functions
-
-### **Evaluation Datasets**
-- Contains `.pos` and `.kml` files used for trajectory prediction and evaluation.
 
 ### **static/maps**
 - Contains HTML visualizations:
@@ -115,15 +68,6 @@ The challenge was to develop a **map-matching algorithm** using **AI-ML techniqu
   - Dataset preprocessing.
   - Running the map-matching model.
   - Generating journey statistics and maps.
-
-### **OSRMDistance_Finder.ipynb**
-- Calculates distances using **OSRM API** and refines snapped road coordinates.
-
-### **Financials.pdf**
-- Contains:
-  - SWOT analysis.
-  - Feasibility and cost-benefit analysis.
-  - Potential applications and benefits.
 
 ---
 
