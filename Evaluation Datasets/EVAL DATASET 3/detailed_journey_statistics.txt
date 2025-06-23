@@ -1,0 +1,33 @@
+
+Journey Statistics Report
+========================
+
+Highway Segments:
+----------------
+Haversine Distance: 5.87 km
+Geodesic Distance: 5.86 km
+Number of Segments: 7
+Average Speed: nan km/h
+Maximum Speed: nan km/h
+Average Acceleration: nan m/s²
+Average Bearing: nan°
+Total Duration: 10.47 minutes
+
+Service Road Segments:
+--------------------
+Haversine Distance: 0.25 km
+Geodesic Distance: 0.25 km
+Number of Segments: 6
+Average Speed: 8.08 km/h
+Maximum Speed: 14.32 km/h
+Average Acceleration: 0.41 m/s²
+Average Bearing: 220.68°
+Total Duration: 0.43 minutes
+
+Journey Summary:
+--------------
+Total Haversine Distance: 6.12 km
+Total Geodesic Distance: 6.11 km
+Total Duration: 10.90 minutes
+Overall Average Speed: 33.71 km/h
+        
